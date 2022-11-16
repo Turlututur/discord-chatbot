@@ -138,8 +138,6 @@ def get_response(intents_list, intents_json):
 load_dotenv()
 token = os.getenv('TOKEN')
 
-# # token = "MTA0MjA3MTYwNTI4NDcyMDY1MA.GkQIIM.51eD7PJJNrH16Yr1DB5HQkyJYYCpTXdawX8rbg"
-
 
 class Irma(Client):
     def __init__(self, *, intents: Intents):
